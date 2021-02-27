@@ -4,16 +4,8 @@ class AboutMe extends Component {
   render() {
     return (
       <div>
-        <h2>AboutMe</h2>
-        <p>Mauris sem velit, vehicula eget sodales vitae,
-        rhoncus eget sapien:</p>
-        <ol>
-          <li>Nulla pulvinar diam</li>
-          <li>Facilisis bibendum</li>
-          <li>Vestibulum vulputate</li>
-          <li>Eget erat</li>
-          <li>Id porttitor</li>
-        </ol>
+        <h2>Abut me</h2>
+        <p>I'm a web developer, nerd and tech guy who loves Apple</p>
       </div>
     );
   }
