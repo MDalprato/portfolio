@@ -1,6 +1,16 @@
 import React, { Component } from "react";
- 
-class Home extends Component {
+import Tiles from './Tiles.js';
+
+
+
+
+class Home extends React.Component {
+
+    constructor(props){
+      super(props);
+	
+    }
+
   render() {
     return (
       <div>
@@ -15,7 +25,9 @@ Very good knowledge of the main software for processing video, audio and text su
 Good knowledge of programming languages ​​used on the Windows platform, such as C + +, Visual Basic, Visual C + + and Visual C # ..
 Excellent knowledge of Apple programming languages ​​such Object C, Swift, AppleScript and Cocoa Touch.
 Great knowledge of Apple networks and their configuration and linking with all Apple devices. </p>
+
        </div>
+
     );
   }
 }

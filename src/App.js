@@ -9,6 +9,7 @@ import {
 import Home from "./Home";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact";
+import Projects from "./Projects";
 
 import './App.css';
  
@@ -21,11 +22,13 @@ function App() {
             <li><NavLink exact to="/">Home</NavLink></li>
             <li><NavLink to="/aboutme">About me</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
+            <li><NavLink to="/projects">Projects</NavLink></li>
           </ul>
           <div className="content">
             <Route exact path="/" component={Home}/>
             <Route path="/aboutme" component={AboutMe}/>
             <Route path="/contact" component={Contact}/>
+            <Route path="/projects" component={Projects}/>
           </div>             
         </div>
       </HashRouter>
